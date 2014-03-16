@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="menuModule">
+<head>
+    <title>Top Menu</title>
+    <link href="bootstrap/dist/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="css/menu.css" type="text/css" rel="stylesheet" />
+
+    <script src="js/lib/jquery-2.0.3.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="js/lib/angular.min.js"></script>
+    <script src="js/lib/angular-route.min.js"></script>
+    <script src="js/services/routing.js"></script>
+    <script src="js/services/inventory.js"></script>
+    <script src="js/controllers.js"></script>
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+
+        </div>
+        <a class="navbar-brand" href="index.html">Nacho Business</a>
+    </nav>
+    <div ng-view>
+    </div>
+</div>
+</body>
+</html>

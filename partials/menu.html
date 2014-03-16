@@ -1,0 +1,19 @@
+    <div class="text-center" ng-controller="MenuCtrl">
+        <h1>Nacho Business</h1>
+        <h3>This is a taco/burrito conversation. Na-chos.</h3>
+
+        <div ng-repeat="category in categories|orderBy:index">
+            <h2>{{category.name}}</h2>
+            <div class="row">
+
+                <div class="col-md-4 well col-sm-12 menu-item" ng-repeat="item in menuItems|filter:{category:category.id, isVisible: true}">
+                    <a href="./#/menu/{{item.id}}">
+                    <img src="./img/{{item.imageUrl}}" class="img-responsive" ng-show="item.imageUrl.length > 0">
+                    <h3>{{item.name}}</h3>
+                    <h6>{{item.price | currency:"$"}}</h6>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>

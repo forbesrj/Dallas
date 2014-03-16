@@ -1,0 +1,7 @@
+    <div ng-controller="ItemCtrl">
+        <h1>{{selectedItem.name}}</h1>
+        <img src="./img/{{selectedItem.imageUrl}}" class="img-responsive" ng-show="selectedItem.imageUrl.length > 0" />
+        <p></p>
+        <h3>{{selectedItem.price}}</h3>
+        <button type="submit" class="btn-primary btn-lg">Order Now</button>
+    </div>
