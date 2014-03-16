@@ -680,7 +680,7 @@
       <created>1381074379293</created>
       <updated>1381074379293</updated>
       <workItem from="1394309753506" duration="884000" />
-      <workItem from="1395001294938" duration="5179000" />
+      <workItem from="1395001294938" duration="6125000" />
     </task>
     <task id="LOCAL-00001" summary="Added SCSS and currency filter">
       <created>1395007049348</created>
@@ -698,11 +698,15 @@
       <created>1395007535327</created>
       <updated>1395007535327</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added SCSS and currency filter&#10;">
+      <created>1395007541200</created>
+      <updated>1395007541200</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6063000" />
+    <option name="totallyTimeSpent" value="7009000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1066" extended-state="0" />
