@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2b60a50-0266-4c18-ada6-1bd836bce600" name="Default" comment="Added SCSS and currency filter">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/daddies.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kids.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mamas.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/mine.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/globals.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/services/inventory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/item.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/item.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/lib/jquery-2.0.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/partials/menu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/scss/menu.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/services/routing.js" />
-      <change type="DELETED" beforePath="C:\Users\Ryan\WebstormProjects\Dallas\menu.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Dallas.iml" afterPath="$PROJECT_DIR$/.idea/Dallas.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/menu.js" afterPath="$PROJECT_DIR$/js/menu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="d2b60a50-0266-4c18-ada6-1bd836bce600" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Dallas.iws" />
@@ -474,7 +451,7 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="options.lastSelected" value="preferences.externalResources" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.searchVisible" value="true" />
@@ -703,12 +680,17 @@
       <created>1381074379293</created>
       <updated>1381074379293</updated>
       <workItem from="1394309753506" duration="884000" />
-      <workItem from="1395001294938" duration="4684000" />
+      <workItem from="1395001294938" duration="4741000" />
     </task>
+    <task id="LOCAL-00001" summary="Added SCSS and currency filter">
+      <created>1395007049348</created>
+      <updated>1395007049348</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5568000" />
+    <option name="totallyTimeSpent" value="5625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1066" extended-state="0" />
