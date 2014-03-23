@@ -8,8 +8,13 @@
   font-family: "MuddyTractor";
   src: url("fonts/MuddyTractorDEMO-KCFonts.ttf");
 }
+html,
 body {
   background-color: #ffde13;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-family: Verdana, sans-serif;
+  height: 100%;
 }
 h1 {
   color: #ff9329;
@@ -34,6 +39,20 @@ h3 {
   font-family: "GoodDog", Verdana, Arial, Helvetica, sans-serif;
   text-align: justify;
   text-transform: uppercase;
+}
+h5 {
+  color: #99633f;
+  font-family: "MuddyTractor", Verdana, Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto 20px;
+}
+.container {
+  height: 100%;
 }
 .navbar-default {
   background-color: #aacc36;
@@ -61,10 +80,8 @@ ul.navbar-nav li {
   font-family: "MuddyTractor", Verdana, Arial, Helvetica, sans-serif;
 }
 .well {
-  border-color: #99633f;
-}
-.menu-item {
   background-color: #aacc36;
+  border-color: #99633f;
 }
 .menu-item a {
   width: 100%;
@@ -81,4 +98,54 @@ ul.navbar-nav li {
 }
 .menu-item:hover {
   background-color: #ff9329;
+}
+p a {
+  color: #ff9329;
+}
+p a:hover {
+  color: #ff4a1b;
+  text-decoration: none;
+  text-shadow: 0.1em 0.1em #99633f;
+}
+p a:visited {
+  color: #ff4a1b;
+}
+footer {
+  background-color: #aacc36;
+  padding: 20px 40px;
+  border-top: solid thin #99633f;
+  height: 155px;
+  position: relative;
+  margin: 0 auto;
+  bottom: 0;
+}
+footer a {
+  color: #99633f;
+  font-family: "GoodDog", Verdana, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+footer a:visited {
+  color: #ff4a1b;
+}
+footer a:hover {
+  color: #ff9329;
+  text-decoration: none;
+  text-shadow: 0.1em 0.1em #99633f;
+}
+.btn-primary {
+  font-family: "MuddyTractor", Verdana, Arial, Helvetica, sans-serif;
+  color: #ffde13;
+  border-color: #ff9329;
+  background-color: #ff9329;
+}
+.btn-primary:hover {
+  color: #99633f;
+  border-color: #99633f;
+  background-color: #ff9329;
+}
+.btn-default {
+  font-family: "MuddyTractor", Verdana, Arial, Helvetica, sans-serif;
+  background-color: #99633f;
+  color: #aacc36;
+  border-color: #aacc36;
 }

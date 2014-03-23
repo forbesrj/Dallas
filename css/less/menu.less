@@ -1,6 +1,10 @@
 @import "_base";
-body{
+html, body{
   background-color: @background;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  font-family: Verdana, sans-serif;
+  height: 100%;
 }
 h1{
   color: @header;
@@ -27,6 +31,20 @@ h3{
   font-family: "GoodDog", Verdana, Arial, Helvetica, sans-serif;
   text-align: justify;
   text-transform: uppercase;
+}
+h5{
+  color: @darkheader;
+  font-family: "MuddyTractor", Verdana, Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+#wrap{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto 20px;
+}
+.container{
+  height: 100%;
 }
 .navbar-default{
   background-color: @foreground;
@@ -57,11 +75,11 @@ ul.navbar-nav li{
 }
 
 .well{
+  background-color: @foreground;
   border-color: @darkheader;
 }
 
 .menu-item{
-  background-color: @foreground;
   a {
     width: 100%;
     height: 100%;
@@ -78,4 +96,60 @@ ul.navbar-nav li{
   &:hover{
     background-color: @header;
   }
+}
+
+p{
+  a{
+    color: @header;
+    &:hover{
+      color: @rojo;
+      text-decoration: none;
+      text-shadow: 0.1em 0.1em @darkheader;
+    }
+    &:visited{
+      color: @rojo;
+    }
+  }
+}
+
+footer{
+  background-color: @foreground;
+  padding: 20px 40px;
+  border-top: solid thin @darkheader;
+  height: 155px;
+  position: relative;
+  margin: 0 auto;
+  bottom: 0;
+  a{
+    color: @darkheader;
+    font-family: "GoodDog", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    &:visited{
+      color: @rojo;
+    }
+    &:hover{
+      color: @header;
+      text-decoration: none;
+      text-shadow: 0.1em 0.1em @darkheader;
+    }
+  }
+}
+
+.btn-primary{
+  font-family: "MuddyTractor", Verdana, Arial, Helvetica, sans-serif;
+  color: @background;
+  border-color: @header;
+  background-color: @header;
+  &:hover{
+    color: @darkheader;
+    border-color: @darkheader;
+    background-color: @header;
+  }
+}
+
+.btn-default{
+  font-family: "MuddyTractor", Verdana, Arial, Helvetica, sans-serif;
+  background-color: @darkheader;
+  color: @foreground;
+  border-color: @foreground;
 }
