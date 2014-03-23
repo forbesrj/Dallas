@@ -1,4 +1,84 @@
-.menu-item a img{
-    width: 100%;
-    height: 250px;
+/*Colors*/
+/*Fonts*/
+@font-face {
+  font-family: "GoodDog";
+  src: url("fonts/GoodDog.otf");
+}
+@font-face {
+  font-family: "MuddyTractor";
+  src: url("fonts/MuddyTractorDEMO-KCFonts.ttf");
+}
+body {
+  background-color: #ffde13;
+}
+h1 {
+  color: #ff9329;
+  text-align: justify;
+  text-align-last: center;
+  /* for IE9 */
+  -ms-text-align-last: center;
+  text-transform: uppercase;
+  font-family: "MuddyTractor", Verdana, Arial, Helvetica, sans-serif;
+}
+h2 {
+  color: #ff9329;
+  font-family: "MuddyTractor", Verdana, Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-transform: uppercase;
+  text-align-last: center;
+  /* for IE9 */
+  -ms-text-align-last: center;
+}
+h3 {
+  color: #99633f;
+  font-family: "GoodDog", Verdana, Arial, Helvetica, sans-serif;
+  text-align: justify;
+  text-transform: uppercase;
+}
+.navbar-default {
+  background-color: #aacc36;
+  border-color: #99633f;
+}
+.navbar-default .navbar-brand {
+  color: #99633f;
+  font-family: "MuddyTractor", Verdana, Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+}
+.navbar-default .navbar-brand:hover {
+  color: #ff4a1b;
+}
+.navbar-default .navbar-brand span {
+  font-family: "GoodDog", Verdana, Arial, Helvetica, sans-serif;
+  text-transform: none;
+}
+.navbar-default .navbar-nav li a {
+  color: #99633f;
+}
+.navbar-default .navbar-nav li a:hover {
+  color: #ff4a1b;
+}
+ul.navbar-nav li {
+  font-family: "MuddyTractor", Verdana, Arial, Helvetica, sans-serif;
+}
+.well {
+  border-color: #99633f;
+}
+.menu-item {
+  background-color: #aacc36;
+}
+.menu-item a {
+  width: 100%;
+  height: 100%;
+  transisition: background-color 0.5s ease;
+}
+.menu-item a img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+.menu-item a:hover {
+  text-decoration: none;
+}
+.menu-item:hover {
+  background-color: #ff9329;
 }
