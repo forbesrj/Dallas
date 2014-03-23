@@ -41,14 +41,30 @@ h5{
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto 20px;
+  margin: 0 auto -155px;
 }
+.push{
+  height: 175px;
+}
+
 .container{
   height: 100%;
 }
 .navbar-default{
   background-color: @foreground;
   border-color: @darkheader;
+  .navbar-toggle{
+    border-color: @darkheader;
+    &:hover, &:focus, &:active{
+      background-color: @header;
+    }
+    .icon-bar{
+      background-color: @darkheader;
+    }
+  }
+  .navbar-collapse{
+    border-color: @darkheader;
+  }
   .navbar-brand{
     color: @darkheader;
     font-family: "MuddyTractor", Verdana, Arial, Helvetica, sans-serif;
@@ -140,7 +156,7 @@ footer{
   color: @background;
   border-color: @header;
   background-color: @header;
-  &:hover{
+  &:hover, &:active, &:focus{
     color: @darkheader;
     border-color: @darkheader;
     background-color: @header;

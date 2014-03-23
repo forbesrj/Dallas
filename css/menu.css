@@ -49,13 +49,30 @@ h5 {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto 20px;
+  margin: 0 auto -155px;
+}
+.push {
+  height: 175px;
 }
 .container {
   height: 100%;
 }
 .navbar-default {
   background-color: #aacc36;
+  border-color: #99633f;
+}
+.navbar-default .navbar-toggle {
+  border-color: #99633f;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:active {
+  background-color: #ff9329;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #99633f;
+}
+.navbar-default .navbar-collapse {
   border-color: #99633f;
 }
 .navbar-default .navbar-brand {
@@ -138,7 +155,9 @@ footer a:hover {
   border-color: #ff9329;
   background-color: #ff9329;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
   color: #99633f;
   border-color: #99633f;
   background-color: #ff9329;
