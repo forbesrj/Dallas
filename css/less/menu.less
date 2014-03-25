@@ -129,6 +129,7 @@ p{
 }
 
 footer{
+  text-align: center;
   background-color: @foreground;
   padding: 20px 40px;
   border-top: solid thin @darkheader;
@@ -147,6 +148,30 @@ footer{
       color: @header;
       text-decoration: none;
       text-shadow: 0.1em 0.1em @darkheader;
+    }
+  }
+  .powered{
+    text-align: center;
+    font-size: 10px;
+    a{
+      color: @background;
+      font-size: 10px;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      &:visited{
+        color: @background;
+      }
+    }
+  }
+  .copy{
+    font-size: 10px;
+    text-align: center;
+    a{
+      color: @background;
+      font-size: 10px;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      &:visited{
+        color: @background;
+      }
     }
   }
 }
