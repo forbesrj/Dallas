@@ -8,6 +8,7 @@ app.config(['$routeProvider', function($routeProvider){
         .when('/item/:id', {templateUrl:'partials/item.html', controller: 'ItemCtrl'})
         .when('/fixins/:id', {templateUrl:'partials/fixins.html', controller: 'FixinCtrl'})
         .when('/order', {templateUrl:'partials/order.html', controller: 'OrderCtrl'})
-        .when('/about', {templateUrl:'partials/about.html', controller: ''})
-        .otherwise({redirectTo: '/menu', templateUrl:'partials/menu.html'})
+        .when('/menu', {templateUrl:'partials/menu.html', controller: 'MenuCtrl'})
+        .when('/complete', {templateUrl: 'partials/complete.html', controller: 'CompleteCtrl'})
+        .otherwise({redirectTo: '/about', templateUrl:'partials/about.html'})
 }]);
