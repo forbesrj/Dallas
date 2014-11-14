@@ -1,8 +1,18 @@
-    <div ng-controller="ItemCtrl">
-        <h1>{{selectedItem.name}}</h1>
-        <img src="./img/{{selectedItem.imageUrl}}" class="img-responsive" ng-show="selectedItem.imageUrl.length > 0" />
-        <h3>{{selectedItem.price | currency:"$"}}</h3>
-        <button type="submit" class="btn-primary btn-lg">Order Now</button>
-        <a href="./" class="btn btn-default btn-lg pull-right">Back to menu</a>
+<div id="item" ng-controller="ItemCtrl">
+    <h1>{{selectedItem.name}}</h1>
+    <img ng-src="./img/{{selectedItem.imageUrl}}" class="img-responsive" ng-show="selectedItem.imageUrl.length > 0" />
+    <h3>{{selectedItem.price | currency:"$"}}</h3>
+    <div class="row">
+        <div class="col-sm-4 col-xs-12">
+            <a href="./#/fixins/{{selectedItem.id}}" class="btn-primary btn-lg full-width">
+                Order Now
+            </a>
+        </div>
+        <div class="col-sm-4 col-sm-offset-4 col-xs-12">
+            <a href="./menu" class="btn btn-default btn-lg pull-right full-width">
+                Back to menu
+            </a>
+        </div>
     </div>
-            <div class="push"></div>
+</div>
+<div class="push"></div>

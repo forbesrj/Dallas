@@ -1,0 +1,17 @@
+<div id="fixins" ng-controller="FixinCtrl">
+    <h1>Choose your fixins</h1>
+    <div class="row" ng-repeat="group in fixinGroups|orderBy:'group':false">
+        <div class="col-md-2" ng-repeat="fixin in group|orderBy: 'name':false">
+            <input type="checkbox" name="{{fixin.name}}" id="{{fixin.id}}" ng-hide="fixin.group" ng-checked="fixin.standard" />
+            <input type="radio" name="{{fixin.group}}" id="{{fixin.id}}" ng-show="fixin.group" ng-checked="fixin.standard" />
+            <label for="{{fixin.id}}">{{fixin.name}}</label>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-2">
+            <a href="./#/order" class="btn btn-primary">
+                Continue
+            </a>
+        </div>
+    </div>
+</div>

@@ -5,7 +5,7 @@
       <paths name="JBC">
         <serverdata>
           <mappings>
-            <mapping deploy="/Dallas" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/Projects/Dallas" local="$PROJECT_DIR$" web="/Projects/Dallas" />
           </mappings>
         </serverdata>
       </paths>
@@ -13,4 +13,3 @@
     <option name="myUploadOnCheckinName" value="JBC" />
   </component>
 </project>
-
