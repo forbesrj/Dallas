@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2b60a50-0266-4c18-ada6-1bd836bce600" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/complete.html" afterPath="$PROJECT_DIR$/partials/complete.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/partials/order.html" afterPath="$PROJECT_DIR$/partials/order.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services/routing.js" afterPath="$PROJECT_DIR$/js/services/routing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers.js" afterPath="$PROJECT_DIR$/js/controllers.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Dallas.iws" />
@@ -169,8 +167,8 @@
           <file leaf-file-name="controllers.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/js/controllers.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.73295456" vertical-offset="0" max-vertical-offset="880">
-                  <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
+                <state vertical-scroll-proportion="0.4090909" vertical-offset="0" max-vertical-offset="880">
+                  <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
                   <folding />
                 </state>
               </provider>
@@ -527,7 +525,13 @@
       <option name="project" value="LOCAL" />
       <updated>1415990831845</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Name added to complete">
+      <created>1416010023726</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1416010023726</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -611,7 +615,8 @@
     <MESSAGE value="Complete page added" />
     <MESSAGE value="Inventory updated" />
     <MESSAGE value="Back to menu fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Back to menu fixed" />
+    <MESSAGE value="Name added to complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="Name added to complete" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -764,14 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/inventory.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1530">
-          <caret line="96" column="3" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/partials/menu.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
@@ -782,24 +779,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/partials/item.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.625" vertical-offset="0" max-vertical-offset="345">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
           <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services/routing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73295456" vertical-offset="0" max-vertical-offset="880">
-          <caret line="43" column="1" selection-start-line="43" selection-start-column="1" selection-end-line="43" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -812,10 +793,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/inventory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1530">
+          <caret line="96" column="3" selection-start-line="96" selection-start-column="3" selection-end-line="96" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services/routing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/partials/order.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14405762" vertical-offset="0" max-vertical-offset="833">
           <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4090909" vertical-offset="0" max-vertical-offset="880">
+          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding />
         </state>
       </provider>

@@ -18,9 +18,12 @@ function ItemCtrl($scope, $filter, $routeParams, menuItems){
     global.order.total = $scope.selectedItem.price;
 }
 
-function FixinCtrl($scope, $filter, $routeParams, menuItems, fixins, upgrades){
+function FixinCtrl($scope, $filter, $routeParams, $window, menuItems, fixins, upgrades){
     var foundUpgrades = $filter("filter")(upgrades, {menuItemId: $routeParams.id}, true);
     $scope.fixinGroups = {};
+    if(foundUpgrades.length == 0){
+        $window.location.href = './#/order';
+    }
     angular.forEach(fixins, function(fixin){
         var upgrade = $filter("filter")(foundUpgrades, {fixinId: fixin.id}, true);
         if(upgrade.length > 0){
@@ -42,8 +45,8 @@ function CompleteCtrl($scope, $routeParams, $filter){
     global.order.name = $routeParams.id;
     $scope.order = global.order;
 }
-app.controller("MenuCtrl", ['$scope', 'menuItems', 'categories', MenuCtrl]);
+/*app.controller("MenuCtrl", ['$scope', 'menuItems', 'categories', MenuCtrl]);
 app.controller("ItemCtrl", ['$scope', '$filter', '$routeParams', 'menuItems', ItemCtrl]);
-app.controller("FixinCtrl", ['$scope', '$filter', '$routeParams', 'menuItems', 'fixins', 'upgrades', FixinCtrl]);
+app.controller("FixinCtrl", ['$scope', '$filter', '$routeParams', '$location', 'menuItems', 'fixins', 'upgrades', FixinCtrl]);
 app.controller("OrderCtrl", ['$scope', '$routeParams', OrderCtrl]);
-app.controller("CompleteCtrl", ['$scope', '$routeParams', '$filter', CompleteCtrl]);
+app.controller("CompleteCtrl", ['$scope', '$routeParams', '$filter', CompleteCtrl]);*/
