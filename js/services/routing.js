@@ -9,6 +9,6 @@ app.config(['$routeProvider', function($routeProvider){
         .when('/fixins/:id', {templateUrl:'partials/fixins.html', controller: 'FixinCtrl'})
         .when('/order', {templateUrl:'partials/order.html', controller: 'OrderCtrl'})
         .when('/menu', {templateUrl:'partials/menu.html', controller: 'MenuCtrl'})
-        .when('/complete', {templateUrl: 'partials/complete.html', controller: 'CompleteCtrl'})
+        .when('/complete/:id', {templateUrl: 'partials/complete.html', controller: 'CompleteCtrl'})
         .otherwise({redirectTo: '/about', templateUrl:'partials/about.html'})
 }]);

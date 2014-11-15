@@ -1,7 +1,7 @@
 <div ng-controller="OrderCtrl">
     <h1>Place Order</h1>
     <label for="name">Name</label>
-    <input type="text" name="name" id="name" ng-value="name" required />
+    <input type="text" name="name" id="name" ng-model="name" required />
 
     <a href="./#/complete/{{name}}" class="btn btn-primary" type="submit">
         Place Order
